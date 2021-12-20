@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">voting_final_year_project</string>
+
+    <string name="create_account"> HAVE NOT AN ACCOUNT?<u>CREATE ONE</u> </string>
+    <string name="forget_password"><u>FORGET PASSWORD</u></string>
+
+    <string name="password_needed_must">
+        Must need at least 8 characters, one number, one special character, one uppercase letter and one lowercase letter, no space*
+    </string>
+
+
+    //Headings
+    <string name="heading_one">No one can Access the admin panel</string>
+    <string name="heading_two">Complete Registration Process</string>
+    <string name="heading_three">Login Setup</string>
+    <string name="heading_fourth">Participate in Voting</string>
+
+    //Description
+    <string name="desc_one">There is two panel such as Admin panel and Voting panel. As you are a voter, so you must have to go the Voting panel for participating in voting.</string>
+    <string name="desc_two">After going to the voting panel you have to complete the whole registration procedure to be a voter in the voter list for participating in voting.</string>
+    <string name="desc_three">After the completion of registration procedure, you have to login with your voter id to notice the further procedure.</string>
+    <string name="desc_fourth">Doing the Login Activity,you can see the candidates list and their bio too.Then you have to give a vote to your respective choice one. </string>
+    <string name="desc_fifth">As a voter, Must Click on the Voting Panel </string>
+
+
+    //otp Screen
+    <string name="otp_code_text">Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password sent on that number which you entered</string>
+    <string name="title_activity_verify_image">verify_image</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

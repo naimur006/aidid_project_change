@@ -27,6 +27,7 @@ public class sign3 extends AppCompatActivity {
     private HashMap<String, String> userdata = new HashMap<> ();
     EditText phone;
     Button signup_next_button;
+    FirebaseAuth mAuth;
 
 
     @Override
@@ -37,6 +38,7 @@ public class sign3 extends AppCompatActivity {
         userdata = (HashMap<String, String>) intent.getSerializableExtra ( "userdata" );
         phone = findViewById ( R.id.phone );
         signup_next_button = findViewById ( R.id.signup_next_button );
+        mAuth = FirebaseAuth.getInstance ();
 
 
         signup_next_button.setOnClickListener ( new View.OnClickListener () {
@@ -55,5 +57,6 @@ public class sign3 extends AppCompatActivity {
         } );
 
     }
+
 
 }

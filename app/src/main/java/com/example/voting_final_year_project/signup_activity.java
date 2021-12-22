@@ -101,9 +101,15 @@ public class signup_activity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<SignInMethodQueryResult> task) {
                                 boolean isNewUser = task.getResult ().getSignInMethods ().isEmpty ();
 
-                                if (!isNewUser) {
-                                    Toast.makeText ( getApplicationContext () , "Please try another email.Someone already using this email" , Toast.LENGTH_SHORT ).show ();
-                                }
+
+
+
+                                    if (!isNewUser) {
+                                        Toast.makeText ( getApplicationContext () , "Please try another email.Someone already using this email" , Toast.LENGTH_SHORT ).show ();
+
+                                    }
+
+
 
 
                                 userdata.put ( "email" , email.getEditableText ().toString () );

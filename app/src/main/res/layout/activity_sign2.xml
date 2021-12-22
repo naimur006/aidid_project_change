@@ -90,14 +90,14 @@
                 android:textColor="@color/black"
                 android:textSize="22sp" />
 
+
             <DatePicker
+                android:id="@+id/birthday"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:calendarViewShown="false"
-                android:id="@+id/birthday"
                 android:datePickerMode="spinner"
                 android:spinnersShown="true" />
-
 
             <Button
                 android:id="@+id/signup_next_button"

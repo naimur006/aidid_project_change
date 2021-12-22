@@ -82,7 +82,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="60dp"
                     android:paddingTop="0dp"
-                    android:text="Voter Infromation"
+                    android:text="Voter Information"
                     android:textColor="@color/black"
                     android:textSize="25sp"
                     android:textStyle="bold" />

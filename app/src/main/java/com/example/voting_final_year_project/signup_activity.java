@@ -95,7 +95,7 @@ public class signup_activity extends AppCompatActivity {
 
 
 
-                mAuth.fetchSignInMethodsForEmail ( email.getEditableText ().toString () )
+               mAuth.fetchSignInMethodsForEmail ( email.getEditableText ().toString () )
                         .addOnCompleteListener ( new OnCompleteListener<SignInMethodQueryResult> () {
                             @Override
                             public void onComplete(@NonNull Task<SignInMethodQueryResult> task) {
@@ -105,9 +105,38 @@ public class signup_activity extends AppCompatActivity {
 
 
                                     if (!isNewUser) {
-                                        Toast.makeText ( getApplicationContext () , "Please try another email.Someone already using this email" , Toast.LENGTH_SHORT ).show ();
+                                       Toast.makeText ( getApplicationContext () , "Please try another email.Someone already using this email" , Toast.LENGTH_SHORT ).show ();
 
                                     }
+
+                //add this code
+                //String _email = email.getText ().toString ();
+                //String _password = password.getText ().toString ();
+
+                //mAuth.createUserWithEmailAndPassword ( _email, _password ).addOnCompleteListener ( new OnCompleteListener<AuthResult> () {
+                  //  @Override
+                    //public void onComplete(@NonNull Task<AuthResult> task) {
+                      //  if (task.isSuccessful ()){
+                           // mAuth.getCurrentUser ().sendEmailVerification ().addOnCompleteListener ( new OnCompleteListener<Void> () {
+                              //  @Override
+                                //public void onComplete(@NonNull Task<Void> task) {
+                                  //  if (task.isSuccessful ()){
+                                    //    Toast.makeText ( signup_activity.this,"Verification link sent to your gmail",Toast.LENGTH_SHORT ).show ();
+                                      //  email.setText ( "" );
+                                        //password.setText ( "" );
+                                    //}else{
+                                      //  Toast.makeText ( signup_activity.this,task.getException ().getMessage (),Toast.LENGTH_SHORT ).show ();
+                                    //}
+                               // }
+                            //} );
+                        //}else {
+                          //  Toast.makeText ( signup_activity.this,task.getException ().getMessage (),Toast.LENGTH_SHORT ).show ();
+                        //}
+
+                    //}
+                //} );
+                //end of this
+
 
 
 
